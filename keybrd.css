@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+
+}
+
+.main{
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.board{
+    background-color: black;
+    width: 650px;
+    height: 190px;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgb(165, 151, 151) 10px 10px 10px;
+
+}
+
+button{
+    color: white;
+    border: white 1px solid;
+     background-color: black;
+     border-radius: 3px;
+    
+}
+.rw1{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+
+}
+
+.rw2{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.rw3{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rw4{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.rw5{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rw6{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+
+}
+
+
+.tab{
+    width:130px;
+}
+
+.bck{
+    width: 150px;
+}
+
+.cps{
+    width: 100px;
+}
+
+.ent{
+    width: 150px;
+
+}
+
+.sft{
+    width: 130px;
+
+}
+
+.sft2{
+    width: 130px;
+
+}
+
+.spc{
+    width: 500px;
+}
+
+ 
+button:hover{
+    background-color: white;
+    color: black;
+}
